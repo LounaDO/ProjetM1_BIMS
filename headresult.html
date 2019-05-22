@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Genes Results</title>
+    <script type="text/javascript" src='https://code.jquery.com/jquery-3.3.1.js'></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script>
+        $(document).ready(function(){
+        $('#tab').DataTable({
+        "scrollX": true
+        });
+        });
+    </script>
+    <style>
+        th, td { white-space: nowrap; }
+    </style>
+</head>
+<body>
+<table id="tab" class="display">
+<thead>
+<tr>
+<th>Gene Symbol</th>
+<th>Specie</th>
+<th>Gene (NCBI)</th>
+<th>NCBI Full Name</th>
+<th>Transcripts id (Refseq)</th>
+<th>Proteins id (Refseq)</th>
+<th>KEGG id</th>
+<th>KEGG Pathway</th>
+<th>Gene id (Ensembl)</th>
+<th>Genome Browser</th>
+<th>ortholog</th>
+<th>Transcripts (Ensembl)</th>
+<th>Proteins (Ensembl)</th>
+<th>UNIPROT id</th>
+<th>Protein name (UNIPROT)</th>
+<th>Biological process(GO)</th>
+<th>Molecular function(GO)</th>
+<th>Cellular component(GO)</th>
+<th>PDB id</th>
+<th>PDB structure</th>
+<th>Interactions (STRING)</th>
+<th>PROSITE id</th>
+<th>Pfam id</th>
+<th>Pfam domain</th>
+</tr>
+</thead>
+<tbody>
+	
+

@@ -1,0 +1,766 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Genes Results</title>
+    <script type="text/javascript" src='https://code.jquery.com/jquery-3.3.1.js'></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script>
+        $(document).ready(function(){
+        $('#tab').DataTable({
+        "scrollX": true
+        });
+        });
+    </script>
+    <style>
+        th, td { white-space: nowrap; }
+    </style>
+</head>
+<body>
+<table id="tab" class="display">
+<thead>
+<tr>
+<th>Gene Symbol</th>
+<th>Specie</th>
+<th>Gene (NCBI)</th>
+<th>NCBI Full Name</th>
+<th>Transcripts id (Refseq)</th>
+<th>Proteins id (Refseq)</th>
+<th>KEGG id</th>
+<th>KEGG Pathway</th>
+<th>Gene id (Ensembl)</th>
+<th>Genome Browser</th>
+<th>ortholog</th>
+<th>Transcripts (Ensembl)</th>
+<th>Proteins (Ensembl)</th>
+<th>UNIPROT id</th>
+<th>Protein name (UNIPROT)</th>
+<th>Biological process(GO)</th>
+<th>Molecular function(GO)</th>
+<th>Cellular component(GO)</th>
+<th>PDB id</th>
+<th>PDB structure</th>
+<th>Interactions (STRING)</th>
+<th>PROSITE id</th>
+<th>Pfam id</th>
+<th>Pfam domain</th>
+</tr>
+</thead>
+<tbody>
+	
+
+<tr><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>brca2</div></td><td><div style='height:150px; overflow-x:auto;'>Homo sapiens
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/gene/?term=675'>675</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>BRCA2 DNA repair associated</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_000059.3'>NM_000059.3</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/protein/NP_000050.2'>NP_000050.2</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href = 'https://www.genome.jp/dbget-bin/www_bget?hsa:675'>hsa:675</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.genome.jp/kegg-bin/show_pathway?hsa03440'>hsa03440</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?hsa03460'>hsa03460</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?hsa05200'>hsa05200</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?hsa05212'>hsa05212</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?hsa05224'>hsa05224</a><br>
+Homologous recombination<br>Fanconi anemia pathway<br>Pathways in cancer<br>Pancreatic cancer<br>Breast cancer<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000139618'>ENSG00000139618</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=LRG_293'>LRG_293</a><br>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href=http://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000139618;r=13:32315474-32400266>ENSG00000139618</a>
+<br><a href=http://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=LRG_293;r=13:32315480-32399672;t=LRG_293t1>LRG_293</a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://www.ensembl.org/Homo_sapiens/Gene/Compara_Ortholog?db=core;g=LRG_293'> ortholog </a><br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000380152'>ENST00000380152</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000544455'>ENST00000544455</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000530893'>ENST00000530893</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000614259'>ENST00000614259</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000528762'>ENST00000528762</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000470094'>ENST00000470094</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000400497'>ENST00000400497</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000533776'>ENST00000533776</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=LRG_293t1'>LRG_293t1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>ENSP00000369497<br>ENSP00000439902<br>ENSP00000433168<br>ENSP00000434898<br>LRG_293p1<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.uniprot.org/uniprot/P51587'>P51587</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Breast cancer type 2 susceptibility protein (Fanconi anemia group D1 protein)</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:1990426">mitotic recombination-dependent replication fork processing</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0070200">establishment of protein localization to telomere</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000724">double-strand break repair via homologous recombination</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051298">centrosome duplication</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045893">positive regulation of transcription, DNA-templated</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0043967">histone H4 acetylation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0043966">histone H3 acetylation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0033600">negative regulation of mammary gland epithelial cell proliferation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006302">double-strand break repair</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006289">nucleotide-excision repair</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000281">mitotic cytokinesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051276">chromosome organization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0048478">replication fork protection</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045931">positive regulation of mitotic cell cycle</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0043009">chordate embryonic development</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0042771">intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0032465">regulation of cytokinesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030097">hemopoiesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010332">response to gamma radiation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010225">response to UV-C</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010165">response to X-ray</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0008630">intrinsic apoptotic signaling pathway in response to DNA damage</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005515">protein binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0043015">gamma-tubulin binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010485">H4 histone acetyltransferase activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010484">H3 histone acetyltransferase activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0004402">histone acetyltransferase activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003697">single-stranded DNA binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0002020">protease binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0008022">protein C-terminus binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0042802">identical protein binding</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000784">nuclear chromosome, telomeric region</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0032991">protein-containing complex</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0033593">BRCA2-MAGE-D1 complex</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030141">secretory granule</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005813">centrosome</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005634">nucleus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005654">nucleoplasm</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000800">lateral element</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.rcsb.org/structure/1N0W'>1N0W</a><br>
+<a href='https://www.rcsb.org/structure/3EU7'>3EU7</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Crystal structure of a RAD51-BRCA2 BRC repeat complex<br>Crystal Structure of a PALB2 / BRCA2 complex<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><iframe src='https://string-db.org/api/image/network?identifiers=P51587' > P51587 </iframe><a href='https://string-db.org/api/image/network?identifiers=P51587' > P51587 </a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://prosite.expasy.org/PS50138'>PS50138</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='http://pfam.xfam.org/family/PF00634'>PF00634</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://pfam.xfam.org/family/PF00634/#tabview=tab1' > PF00634</a><br></div></td></tr><tr><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>sms-2</div></td><td><div style='height:150px; overflow-x:auto;'>Caenorhabditis elegans
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/gene/?term=180445'>180445</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Phosphatidylcholine:ceramide cholinephosphotransferase 2</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_075781.3'>NM_075781.3</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/protein/NP_508182.1'>NP_508182.1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href = 'https://www.genome.jp/dbget-bin/www_bget?cel:CELE_F53H8.4'>cel:CELE_F53H8.4</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.genome.jp/kegg-bin/show_pathway?cel00600'>cel00600</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?cel01100'>cel01100</a><br>
+Sphingolipid metabolism<br>Metabolic pathways<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/Caenorhabditis_elegans/Gene/Summary?g=WBGene00004893'>WBGene00004893</a><br>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href=http://www.ensembl.org/Caenorhabditis_elegans/Gene/Summary?db=core;g=WBGene00004893;r=X:944826-948883;t=F53H8.4>WBGene00004893</a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://www.ensembl.org/Caenorhabditis_elegans/Gene/Compara_Ortholog?db=core;g=WBGene00004893'> ortholog </a><br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=F53H8.4'>F53H8.4</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>F53H8.4<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.uniprot.org/uniprot/Q20735'>Q20735</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Phosphatidylcholine:ceramide cholinephosphotransferase 2 (EC 2.7.8.27) (Sphingomyelin synthase 2)</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006665">sphingolipid metabolic process</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006629">lipid metabolic process</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006686">sphingomyelin biosynthetic process</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0046513">ceramide biosynthetic process</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030148">sphingolipid biosynthetic process</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0047493">ceramide cholinephosphotransferase activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0033188">sphingomyelin synthase activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0016740">transferase activity</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0016021">integral component of membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030176">integral component of endoplasmic reticulum membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030173">integral component of Golgi membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005887">integral component of plasma membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0016020">membrane</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Not ID PDB</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Not ID PDB<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><iframe src='https://string-db.org/api/image/network?identifiers=Q20735' > Q20735 </iframe><a href='https://string-db.org/api/image/network?identifiers=Q20735' > Q20735 </a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='http://pfam.xfam.org/family/PF14360'>PF14360</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://pfam.xfam.org/family/PF14360/#tabview=tab1' > PF14360</a><br></div></td></tr><tr><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>col1a1</div></td><td><div style='height:150px; overflow-x:auto;'>mus musculus
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/gene/?term=12842'>12842</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>collagen, type I, alpha 1</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_007742.4'>NM_007742.4</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/protein/NP_031768.2'>NP_031768.2</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href = 'https://www.genome.jp/dbget-bin/www_bget?mmu:12842'>mmu:12842</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.genome.jp/kegg-bin/show_pathway?mmu04151'>mmu04151</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?mmu04510'>mmu04510</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?mmu04512'>mmu04512</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?mmu04611'>mmu04611</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?mmu04926'>mmu04926</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?mmu04933'>mmu04933</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?mmu04974'>mmu04974</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?mmu05146'>mmu05146</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?mmu05165'>mmu05165</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?mmu05205'>mmu05205</a><br>
+PI3K-Akt signaling pathway<br>Focal adhesion<br>ECM-receptor interaction<br>Platelet activation<br>Relaxin signaling pathway<br>AGE-RAGE signaling pathway in diabetic complications<br>Protein digestion and absorption<br>Amoebiasis<br>Human papillomavirus infection<br>Proteoglycans in cancer<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/mus_musculus/Gene/Summary?g=ENSMUSG00000001506'>ENSMUSG00000001506</a><br>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href=http://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g=ENSMUSG00000001506;r=11:94936224-94953042>ENSMUSG00000001506</a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://www.ensembl.org/mus_musculus/Gene/Compara_Ortholog?db=core;g=ENSMUSG00000001506'> ortholog </a><br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000001547'>ENSMUST00000001547</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000139974'>ENSMUST00000139974</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000148593'>ENSMUST00000148593</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000148046'>ENSMUST00000148046</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>ENSMUSP00000001547<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.uniprot.org/uniprot/P11087'>P11087</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Collagen alpha-1(I) chain (Alpha-1 type I collagen)</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0090263">positive regulation of canonical Wnt signaling pathway</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0048706">embryonic skeletal system development</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045893">positive regulation of transcription, DNA-templated</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0043589">skin morphogenesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0034505">tooth mineralization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0034504">protein localization to nucleus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0032964">collagen biosynthetic process</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030335">positive regulation of cell migration</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030199">collagen fibril organization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010718">positive regulation of epithelial to mesenchymal transition</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0007605">sensory perception of sound</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0007601">visual perception</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0001568">blood vessel development</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0001501">skeletal system development</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:1902618">cellular response to fluoride</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:1902617">response to fluoride</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0071560">cellular response to transforming growth factor beta stimulus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0071364">cellular response to epidermal growth factor stimulus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0071356">cellular response to tumor necrosis factor</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0071306">cellular response to vitamin E</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0071300">cellular response to retinoic acid</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0071260">cellular response to mechanical stimulus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0055093">response to hyperoxia</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051591">response to cAMP</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0048545">response to steroid hormone</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030020">extracellular matrix structural constituent conferring tensile strength</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005201">extracellular matrix structural constituent</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0048407">platelet-derived growth factor binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0042802">identical protein binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005515">protein binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0002020">protease binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0046872">metal ion binding</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005615">extracellular space</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005584">collagen type I trimer</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030141">secretory granule</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005794">Golgi apparatus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005783">endoplasmic reticulum</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005581">collagen trimer</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005576">extracellular region</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0062023">collagen-containing extracellular matrix</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0031012">extracellular matrix</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005737">cytoplasm</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Not ID PDB</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Not ID PDB<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><iframe src='https://string-db.org/api/image/network?identifiers=P11087' > P11087 </iframe><a href='https://string-db.org/api/image/network?identifiers=P11087' > P11087 </a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://prosite.expasy.org/PS50184'>PS50184</a><br>
+<a href='https://prosite.expasy.org/PS01208'>PS01208</a><br>
+<a href='https://prosite.expasy.org/PS51461'>PS51461</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='http://pfam.xfam.org/family/PF00093'>PF00093</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://pfam.xfam.org/family/PF00093/#tabview=tab1' > PF00093</a><br></div></td></tr><tr><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>RAD51</div></td><td><div style='height:150px; overflow-x:auto;'>homo sapiens
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/gene/?term=5888'>5888</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>RAD51 recombinase</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001164270.1'>NM_001164270.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001164269.1'>NM_001164269.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_133487.3'>NM_133487.3</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_002875.4'>NM_002875.4</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_011521862.3'>XM_011521862.3</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_011521861.2'>XM_011521861.2</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_011521858.2'>XM_011521858.2</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_011521860.2'>XM_011521860.2</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_011521859.2'>XM_011521859.2</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_006720626.3'>XM_006720626.3</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_011521857.2'>XM_011521857.2</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/protein/NP_001157742.1'>NP_001157742.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_001157741.1'>NP_001157741.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_597994.3'>NP_597994.3</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_002866.2'>NP_002866.2</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_011520164.1'>XP_011520164.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_011520163.1'>XP_011520163.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_011520162.1'>XP_011520162.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_011520161.1'>XP_011520161.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_011520160.1'>XP_011520160.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_011520159.1'>XP_011520159.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_006720689.1'>XP_006720689.1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href = 'https://www.genome.jp/dbget-bin/www_bget?hsa:5888'>hsa:5888</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.genome.jp/kegg-bin/show_pathway?hsa03440'>hsa03440</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?hsa03460'>hsa03460</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?hsa05200'>hsa05200</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?hsa05212'>hsa05212</a><br>
+Homologous recombination<br>Fanconi anemia pathway<br>Pathways in cancer<br>Pancreatic cancer<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/homo_sapiens/Gene/Summary?g=ENSG00000285396'>ENSG00000285396</a><br>
+<a href='https://www.ensembl.org/homo_sapiens/Gene/Summary?g=ENSG00000051180'>ENSG00000051180</a><br>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href=http://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000285396;r=15:40695129-40732158;t=ENST00000645673>ENSG00000285396</a>
+<br><a href=http://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000051180;r=15:40694774-40732339>ENSG00000051180</a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://www.ensembl.org/homo_sapiens/Gene/Compara_Ortholog?db=core;g=ENSG00000051180'> ortholog </a><br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000527860'>ENST00000527860</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000423169'>ENST00000423169</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000645673'>ENST00000645673</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000267868'>ENST00000267868</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000557850'>ENST00000557850</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000532743'>ENST00000532743</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000382643'>ENST00000382643</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000525066'>ENST00000525066</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000526763'>ENST00000526763</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000531277'>ENST00000531277</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000533741'>ENST00000533741</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000650326'>ENST00000650326</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000533146'>ENST00000533146</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000526635'>ENST00000526635</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENST00000499988'>ENST00000499988</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>ENSP00000432759<br>ENSP00000406602<br>ENSP00000493712<br>ENSP00000267868<br>ENSP00000454176<br>ENSP00000433924<br>ENSP00000372088<br>ENSP00000431864<br>ENSP00000431897<br>ENSP00000436512<br>ENSP00000433053<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.uniprot.org/uniprot/Q06609'>Q06609</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>DNA repair protein RAD51 homolog 1 (HsRAD51) (hRAD51) (RAD51 homolog A)</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000724">double-strand break repair via homologous recombination</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006259">DNA metabolic process</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006281">DNA repair</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:1990426">mitotic recombination-dependent replication fork processing</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006974">cellular response to DNA damage stimulus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006310">DNA recombination</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000730">DNA recombinase assembly</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0036297">interstrand cross-link repair</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0031297">replication fork processing</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010833">telomere maintenance via telomere lengthening</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000722">telomere maintenance via recombination</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0007131">reciprocal meiotic recombination</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006312">mitotic recombination</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0072757">cellular response to camptothecin</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0071479">cellular response to ionizing radiation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051260">protein homooligomerization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051106">positive regulation of DNA ligation</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000150">recombinase activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000166">nucleotide binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003677">DNA binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003690">double-stranded DNA binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003697">single-stranded DNA binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005524">ATP binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0008094">DNA-dependent ATPase activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003682">chromatin binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0019899">enzyme binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0043142">single-stranded DNA-dependent ATPase activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005515">protein binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0070182">DNA polymerase binding</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005739">mitochondrion</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005634">nucleus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005856">cytoskeleton</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005737">cytoplasm</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000790">nuclear chromatin</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0032991">protein-containing complex</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000785">chromatin</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000784">nuclear chromosome, telomeric region</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0048471">perinuclear region of cytoplasm</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0016605">PML body</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000794">condensed nuclear chromosome</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000793">condensed chromosome</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000228">nuclear chromosome</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005654">nucleoplasm</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.rcsb.org/structure/1B22'>1B22</a><br>
+<a href='https://www.rcsb.org/structure/1N0W'>1N0W</a><br>
+<a href='https://www.rcsb.org/structure/5H1B'>5H1B</a><br>
+<a href='https://www.rcsb.org/structure/5H1C'>5H1C</a><br>
+<a href='https://www.rcsb.org/structure/5JZC'>5JZC</a><br>
+<a href='https://www.rcsb.org/structure/5NP7'>5NP7</a><br>
+<a href='https://www.rcsb.org/structure/5NWL'>5NWL</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>RAD51 (N-TERMINAL DOMAIN)<br>Crystal structure of a RAD51-BRCA2 BRC repeat complex<br>Human RAD51 presynaptic complex<br>Human RAD51 post-synaptic complexes<br>helical filament<br>CryoEM structure of Human Rad51 on single-stranded DNA to 4.2A resolution.<br>Crystal structure of a human RAD51-ATP filament.<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><iframe src='https://string-db.org/api/image/network?identifiers=Q06609' > Q06609 </iframe><a href='https://string-db.org/api/image/network?identifiers=Q06609' > Q06609 </a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://prosite.expasy.org/PS50162'>PS50162</a><br>
+<a href='https://prosite.expasy.org/PS50163'>PS50163</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='http://pfam.xfam.org/family/PF08423'>PF08423</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://pfam.xfam.org/family/PF08423/#tabview=tab1' > PF08423</a><br></div></td></tr><tr><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>DMD</div></td><td><div style='height:150px; overflow-x:auto;'>mus musculus
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/gene/?term=13405'>13405</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>dystrophin, muscular dystrophy</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001314038.1'>NM_001314038.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001314037.1'>NM_001314037.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001314036.1'>NM_001314036.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001314035.1'>NM_001314035.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001314034.1'>NM_001314034.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_007868.6'>NM_007868.6</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_017318379.1'>XM_017318379.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_017318378.1'>XM_017318378.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_017318377.1'>XM_017318377.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_017318376.1'>XM_017318376.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_017318375.1'>XM_017318375.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_017318374.1'>XM_017318374.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_017318373.1'>XM_017318373.1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/protein/NP_001300967.1'>NP_001300967.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_001300966.1'>NP_001300966.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_001300965.1'>NP_001300965.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_001300964.1'>NP_001300964.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_001300963.1'>NP_001300963.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_031894.1'>NP_031894.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_017173868.1'>XP_017173868.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_017173867.1'>XP_017173867.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_017173866.1'>XP_017173866.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_017173865.1'>XP_017173865.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_017173864.1'>XP_017173864.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_017173863.1'>XP_017173863.1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href = 'https://www.genome.jp/dbget-bin/www_bget?mmu:13405'>mmu:13405</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.genome.jp/kegg-bin/show_pathway?mmu05410'>mmu05410</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?mmu05412'>mmu05412</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?mmu05414'>mmu05414</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?mmu05416'>mmu05416</a><br>
+Hypertrophic cardiomyopathy (HCM)<br>Arrhythmogenic right ventricular cardiomyopathy (ARVC)<br>Dilated cardiomyopathy (DCM)<br>Viral myocarditis<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/mus_musculus/Gene/Summary?g=ENSMUSG00000045103'>ENSMUSG00000045103</a><br>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href=http://www.ensembl.org/Mus_musculus/Gene/Summary?db=core;g=ENSMUSG00000045103;r=X:82948870-85206141>ENSMUSG00000045103</a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://www.ensembl.org/mus_musculus/Gene/Compara_Ortholog?db=core;g=ENSMUSG00000045103'> ortholog </a><br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000127295'>ENSMUST00000127295</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000114000'>ENSMUST00000114000</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000147740'>ENSMUST00000147740</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000104432'>ENSMUST00000104432</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000049420'>ENSMUST00000049420</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000083727'>ENSMUST00000083727</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000141778'>ENSMUST00000141778</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000141261'>ENSMUST00000141261</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000118590'>ENSMUST00000118590</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000139998'>ENSMUST00000139998</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000146331'>ENSMUST00000146331</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000156107'>ENSMUST00000156107</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000122197'>ENSMUST00000122197</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000128983'>ENSMUST00000128983</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000132333'>ENSMUST00000132333</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000149433'>ENSMUST00000149433</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000113991'>ENSMUST00000113991</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000113992'>ENSMUST00000113992</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSMUST00000123308'>ENSMUST00000123308</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>ENSMUSP00000109633<br>ENSMUSP00000043015<br>ENSMUSP00000109624<br>ENSMUSP00000109625<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.uniprot.org/uniprot/P11531'>P11531</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Dystrophin</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:2000651">positive regulation of sodium ion transmembrane transporter activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:1902083">negative regulation of peptidyl-cysteine S-nitrosylation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:1901385">regulation of voltage-gated calcium channel activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0086001">cardiac muscle cell action potential</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0060314">regulation of ryanodine-sensitive calcium-release channel activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0034622">cellular protein-containing complex assembly</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0034613">cellular protein localization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0033137">negative regulation of peptidyl-serine phosphorylation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0014819">regulation of skeletal muscle contraction</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0014809">regulation of skeletal muscle contraction by regulation of release of sequestered calcium ion</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010881">regulation of cardiac muscle contraction by regulation of the release of sequestered calcium ion</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010880">regulation of release of sequestered calcium ion into cytosol by sarcoplasmic reticulum</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0002027">regulation of heart rate</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0001954">positive regulation of cell-matrix adhesion</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0090287">regulation of cellular response to growth factor stimulus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0070373">negative regulation of ERK1 and ERK2 cascade</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0060857">establishment of glial blood-brain barrier</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0060048">cardiac muscle contraction</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051647">nucleus localization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0048747">muscle fiber development</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0046716">muscle cell cellular homeostasis</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0046872">metal ion binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003779">actin binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0050998">nitric-oxide synthase binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0017166">vinculin binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0017022">myosin binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0008307">structural constituent of muscle</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005515">protein binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0002162">dystroglycan binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0044877">protein-containing complex binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030165">PDZ domain binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005521">lamin binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005178">integrin binding</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045202">synapse</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045121">membrane raft</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0044306">neuron projection terminus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0043034">costamere</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0042383">sarcolemma</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0032991">protein-containing complex</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0031527">filopodium membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030175">filopodium</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030055">cell-substrate junction</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030054">cell junction</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030018">Z disc</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0016010">dystrophin-associated glycoprotein complex</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0009986">cell surface</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005886">plasma membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005634">nucleus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0099617">matrix side of mitochondrial inner membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0097449">astrocyte projection</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Not ID PDB</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Not ID PDB<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><iframe src='https://string-db.org/api/image/network?identifiers=P11531' > P11531 </iframe><a href='https://string-db.org/api/image/network?identifiers=P11531' > P11531 </a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://prosite.expasy.org/PS50021'>PS50021</a><br>
+<a href='https://prosite.expasy.org/PS00019'>PS00019</a><br>
+<a href='https://prosite.expasy.org/PS00020'>PS00020</a><br>
+<a href='https://prosite.expasy.org/PS50020'>PS50020</a><br>
+<a href='https://prosite.expasy.org/PS01159'>PS01159</a><br>
+<a href='https://prosite.expasy.org/PS50135'>PS50135</a><br>
+<a href='https://prosite.expasy.org/PS01357'>PS01357</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='http://pfam.xfam.org/family/PF00307'>PF00307</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://pfam.xfam.org/family/PF00307/#tabview=tab1' > PF00307</a><br></div></td></tr><tr><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>CDH2</div></td><td><div style='height:150px; overflow-x:auto;'>gallus gallus
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/gene/?term=414745'>414745</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>cadherin 2</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001001615.1'>NM_001001615.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_025147080.1'>XM_025147080.1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/protein/NP_001001615.1'>NP_001001615.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_025002848.1'>XP_025002848.1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href = 'https://www.genome.jp/dbget-bin/www_bget?gga:414745'>gga:414745</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.genome.jp/kegg-bin/show_pathway?gga04514'>gga04514</a><br>
+Cell adhesion molecules (CAMs)<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/gallus_gallus/Gene/Summary?g=ENSGALG00000015132'>ENSGALG00000015132</a><br>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href=http://www.ensembl.org/Gallus_gallus/Gene/Summary?db=core;g=ENSGALG00000015132;r=2:104786041-104900468>ENSGALG00000015132</a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://www.ensembl.org/gallus_gallus/Gene/Compara_Ortholog?db=core;g=ENSGALG00000015132'> ortholog </a><br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSGALT00000097693'>ENSGALT00000097693</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSGALT00000024417'>ENSGALT00000024417</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>ENSGALP00000070672<br>ENSGALP00000024371<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.uniprot.org/uniprot/P10288'>P10288</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Cadherin-2 (Neural cadherin) (N-cadherin)</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0098609">cell-cell adhesion</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0036032">neural crest cell delamination</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0001841">neural tube formation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0098743">cell aggregation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030336">negative regulation of cell migration</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0044331">cell-cell adhesion mediated by cadherin</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0061561">trigeminal ganglion formation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0061563">trigeminal ganglion structural organization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0098742">cell-cell adhesion via plasma-membrane adhesion molecules</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0097150">neuronal stem cell population maintenance</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010001">glial cell differentiation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0060173">limb development</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0007155">cell adhesion</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0001502">cartilage condensation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051966">regulation of synaptic transmission, glutamatergic</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0050770">regulation of axonogenesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0048514">blood vessel morphogenesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0034332">adherens junction organization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0016339">calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0007416">synapse assembly</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005509">calcium ion binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045296">cadherin binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0050840">extracellular matrix binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005515">protein binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045295">gamma-catenin binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0042803">protein homodimerization activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0008092">cytoskeletal protein binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0042802">identical protein binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0019903">protein phosphatase binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0019901">protein kinase binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0019899">enzyme binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045294">alpha-catenin binding</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005887">integral component of plasma membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005886">plasma membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005829">cytosol</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0009986">cell surface</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0014704">intercalated disc</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005623">cell</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0044297">cell body</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0043005">neuron projection</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005913">cell-cell adherens junction</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045177">apical part of cell</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005911">cell-cell junction</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005912">adherens junction</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0099056">integral component of presynaptic membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0099055">integral component of postsynaptic membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0099060">integral component of postsynaptic specialization membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0099059">integral component of presynaptic active zone membrane</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045202">synapse</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Not ID PDB</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Not ID PDB<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><iframe src='https://string-db.org/api/image/network?identifiers=P10288' > P10288 </iframe><a href='https://string-db.org/api/image/network?identifiers=P10288' > P10288 </a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://prosite.expasy.org/PS50268'>PS50268</a><br>
+<a href='https://prosite.expasy.org/PS00232'>PS00232</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='http://pfam.xfam.org/family/PF00028'>PF00028</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://pfam.xfam.org/family/PF00028/#tabview=tab1' > PF00028</a><br></div></td></tr><tr><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>TP53</div></td><td><div style='height:150px; overflow-x:auto;'>danio rerio
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/gene/?term=30590'>30590</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>tumor protein p53</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001328588.1'>NM_001328588.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001328587.1'>NM_001328587.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001271820.1'>NM_001271820.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_131327.2'>NM_131327.2</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_005165104.4'>XM_005165104.4</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_005165103.4'>XM_005165103.4</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_005165101.4'>XM_005165101.4</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/protein/NP_001315517.1'>NP_001315517.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_001315516.1'>NP_001315516.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_001258749.1'>NP_001258749.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_571402.1'>NP_571402.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_005165161.1'>XP_005165161.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_005165160.1'>XP_005165160.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_005165158.1'>XP_005165158.1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href = 'https://www.genome.jp/dbget-bin/www_bget?dre:30590'>dre:30590</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.genome.jp/kegg-bin/show_pathway?dre04010'>dre04010</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04110'>dre04110</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04115'>dre04115</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04137'>dre04137</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04210'>dre04210</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04216'>dre04216</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04218'>dre04218</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04310'>dre04310</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre05168'>dre05168</a><br>
+MAPK signaling pathway<br>Cell cycle<br>p53 signaling pathway<br>Mitophagy - animal<br>Apoptosis<br>Ferroptosis<br>Cellular senescence<br>Wnt signaling pathway<br>Herpes simplex infection<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/danio_rerio/Gene/Summary?g=ENSDARG00000035559'>ENSDARG00000035559</a><br>
+<a href='https://www.ensembl.org/danio_rerio/Gene/Summary?g=ENSDARG00000115148'>ENSDARG00000115148</a><br>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href=http://www.ensembl.org/Danio_rerio/Gene/Summary?db=core;g=ENSDARG00000035559;r=5:24086227-24097805>ENSDARG00000035559</a>
+<br><a href=http://www.ensembl.org/Danio_rerio/Gene/Summary?db=core;g=ENSDARG00000115148;r=CHR_ALT_CTG5_1_14:24087441-24096142>ENSDARG00000115148</a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://www.ensembl.org/danio_rerio/Gene/Compara_Ortholog?db=core;g=ENSDARG00000115148'> ortholog </a><br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000135934'>ENSDART00000135934</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000051549'>ENSDART00000051549</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000177458'>ENSDART00000177458</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000139520'>ENSDART00000139520</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000137298'>ENSDART00000137298</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000183644'>ENSDART00000183644</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000135083'>ENSDART00000135083</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000183748'>ENSDART00000183748</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000180560'>ENSDART00000180560</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000179812'>ENSDART00000179812</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>ENSDARP00000116736<br>ENSDARP00000051548<br>ENSDARP00000144168<br>ENSDARP00000152377<br>ENSDARP00000151125<br>ENSDARP00000145150<br>ENSDARP00000147996<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.uniprot.org/uniprot/P79734'>P79734</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Cellular tumor antigen p53 (Tumor suppressor p53)</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045944">positive regulation of transcription by RNA polymerase II</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006974">cellular response to DNA damage stimulus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0042771">intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:2000779">regulation of double-strand break repair</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:1902262">apoptotic process involved in blood vessel morphogenesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0097193">intrinsic apoptotic signaling pathway</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0090398">cellular senescence</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0071456">cellular response to hypoxia</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0061484">hematopoietic stem cell homeostasis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0060729">intestinal epithelial structure maintenance</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0060216">definitive hemopoiesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051782">negative regulation of cell division</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051597">response to methylmercury</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051289">protein homotetramerization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0048821">erythrocyte development</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0048730">epidermis morphogenesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045893">positive regulation of transcription, DNA-templated</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045787">positive regulation of cell cycle</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:1990841">promoter-specific chromatin binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0043565">sequence-specific DNA binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005515">protein binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003700">DNA-binding transcription factor activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0046872">metal ion binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003677">DNA binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0044212">transcription regulatory region DNA binding</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000785">chromatin</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005634">nucleus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005737">cytoplasm</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.rcsb.org/structure/4CZ6'>4CZ6</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Truncated tetramerization domain of zebrafish p53 (crystal form II)<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><iframe src='https://string-db.org/api/image/network?identifiers=P79734' > P79734 </iframe><a href='https://string-db.org/api/image/network?identifiers=P79734' > P79734 </a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://prosite.expasy.org/PS00348'>PS00348</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='http://pfam.xfam.org/family/PF00870'>PF00870</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://pfam.xfam.org/family/PF00870/#tabview=tab1' > PF00870</a><br></div></td></tr><tr><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>RAD51</div></td><td><div style='height:150px; overflow-x:auto;'>pan troglodytes
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/gene/?term=453339'>453339</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>RAD51 recombinase</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_003314621.5'>XM_003314621.5</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_001144621.6'>XM_001144621.6</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_016927950.1'>XM_016927950.1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/protein/XP_016783439.1'>XP_016783439.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_003314669.1'>XP_003314669.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_001144621.1'>XP_001144621.1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href = 'https://www.genome.jp/dbget-bin/www_bget?ptr:453339'>ptr:453339</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.genome.jp/kegg-bin/show_pathway?ptr03440'>ptr03440</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?ptr03460'>ptr03460</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?ptr05200'>ptr05200</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?ptr05212'>ptr05212</a><br>
+Homologous recombination<br>Fanconi anemia pathway<br>Pathways in cancer<br>Pancreatic cancer<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/pan_troglodytes/Gene/Summary?g=ENSPTRG00000006926'>ENSPTRG00000006926</a><br>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href=http://www.ensembl.org/Pan_troglodytes/Gene/Summary?db=core;g=ENSPTRG00000006926;r=15:21164059-21199026>ENSPTRG00000006926</a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://www.ensembl.org/pan_troglodytes/Gene/Compara_Ortholog?db=core;g=ENSPTRG00000006926'> ortholog </a><br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSPTRT00000012774'>ENSPTRT00000012774</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSPTRT00000079122'>ENSPTRT00000079122</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSPTRT00000096488'>ENSPTRT00000096488</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSPTRT00000108071'>ENSPTRT00000108071</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>ENSPTRP00000011825<br>ENSPTRP00000082225<br>ENSPTRP00000068995<br>ENSPTRP00000092189<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.uniprot.org/uniprot/A0A2J8QDL2'>A0A2J8QDL2</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>DNA repair protein RAD51 homolog</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0072757">cellular response to camptothecin</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0071479">cellular response to ionizing radiation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051260">protein homooligomerization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051106">positive regulation of DNA ligation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0036297">interstrand cross-link repair</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0031297">replication fork processing</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010569">regulation of double-strand break repair via homologous recombination</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006974">cellular response to DNA damage stimulus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006268">DNA unwinding involved in DNA replication</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000730">DNA recombinase assembly</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000724">double-strand break repair via homologous recombination</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:1990414">replication-born double-strand break repair via sister chromatid exchange</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0072711">cellular response to hydroxyurea</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0071312">cellular response to alkaloid</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0070192">chromosome organization involved in meiotic cell cycle</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051321">meiotic cell cycle</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0032200">telomere organization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010833">telomere maintenance via telomere lengthening</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0001932">regulation of protein phosphorylation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000722">telomere maintenance via recombination</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006259">DNA metabolic process</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006281">DNA repair</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0070182">DNA polymerase binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0043142">single-stranded DNA-dependent ATPase activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0042802">identical protein binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0019899">enzyme binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0008022">protein C-terminus binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005524">ATP binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003697">single-stranded DNA binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003690">double-stranded DNA binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003682">chromatin binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000150">recombinase activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000166">nucleotide binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003677">DNA binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0008094">DNA-dependent ATPase activity</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0048471">perinuclear region of cytoplasm</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0035861">site of double-strand break</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0032991">protein-containing complex</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0016605">PML body</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005829">cytosol</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005739">mitochondrion</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005737">cytoplasm</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005730">nucleolus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005634">nucleus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000800">lateral element</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000790">nuclear chromatin</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000785">chromatin</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000784">nuclear chromosome, telomeric region</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000228">nuclear chromosome</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000794">condensed nuclear chromosome</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000793">condensed chromosome</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Not ID PDB</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Not ID PDB<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><iframe src='https://string-db.org/api/image/network?identifiers=A0A2J8QDL2' > A0A2J8QDL2 </iframe><a href='https://string-db.org/api/image/network?identifiers=A0A2J8QDL2' > A0A2J8QDL2 </a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://prosite.expasy.org/PS50162'>PS50162</a><br>
+<a href='https://prosite.expasy.org/PS50163'>PS50163</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='http://pfam.xfam.org/family/PF08423'>PF08423</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://pfam.xfam.org/family/PF08423/#tabview=tab1' > PF08423</a><br></div></td></tr><tr><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>TP53</div></td><td><div style='height:150px; overflow-x:auto;'>danio rerio
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/gene/?term=30590'>30590</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>tumor protein p53</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001328588.1'>NM_001328588.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001328587.1'>NM_001328587.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001271820.1'>NM_001271820.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_131327.2'>NM_131327.2</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_005165104.4'>XM_005165104.4</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_005165103.4'>XM_005165103.4</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/XM_005165101.4'>XM_005165101.4</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/protein/NP_001315517.1'>NP_001315517.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_001315516.1'>NP_001315516.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_001258749.1'>NP_001258749.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_571402.1'>NP_571402.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_005165161.1'>XP_005165161.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_005165160.1'>XP_005165160.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/XP_005165158.1'>XP_005165158.1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href = 'https://www.genome.jp/dbget-bin/www_bget?dre:30590'>dre:30590</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.genome.jp/kegg-bin/show_pathway?dre04010'>dre04010</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04110'>dre04110</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04115'>dre04115</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04137'>dre04137</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04210'>dre04210</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04216'>dre04216</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04218'>dre04218</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre04310'>dre04310</a><br>
+<a href='https://www.genome.jp/kegg-bin/show_pathway?dre05168'>dre05168</a><br>
+MAPK signaling pathway<br>Cell cycle<br>p53 signaling pathway<br>Mitophagy - animal<br>Apoptosis<br>Ferroptosis<br>Cellular senescence<br>Wnt signaling pathway<br>Herpes simplex infection<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/danio_rerio/Gene/Summary?g=ENSDARG00000035559'>ENSDARG00000035559</a><br>
+<a href='https://www.ensembl.org/danio_rerio/Gene/Summary?g=ENSDARG00000115148'>ENSDARG00000115148</a><br>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href=http://www.ensembl.org/Danio_rerio/Gene/Summary?db=core;g=ENSDARG00000035559;r=5:24086227-24097805>ENSDARG00000035559</a>
+<br><a href=http://www.ensembl.org/Danio_rerio/Gene/Summary?db=core;g=ENSDARG00000115148;r=CHR_ALT_CTG5_1_14:24087441-24096142>ENSDARG00000115148</a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://www.ensembl.org/danio_rerio/Gene/Compara_Ortholog?db=core;g=ENSDARG00000115148'> ortholog </a><br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000135934'>ENSDART00000135934</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000051549'>ENSDART00000051549</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000177458'>ENSDART00000177458</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000139520'>ENSDART00000139520</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000137298'>ENSDART00000137298</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000183644'>ENSDART00000183644</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000135083'>ENSDART00000135083</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000183748'>ENSDART00000183748</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000180560'>ENSDART00000180560</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=ENSDART00000179812'>ENSDART00000179812</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>ENSDARP00000116736<br>ENSDARP00000051548<br>ENSDARP00000144168<br>ENSDARP00000152377<br>ENSDARP00000151125<br>ENSDARP00000145150<br>ENSDARP00000147996<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.uniprot.org/uniprot/P79734'>P79734</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Cellular tumor antigen p53 (Tumor suppressor p53)</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045944">positive regulation of transcription by RNA polymerase II</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006974">cellular response to DNA damage stimulus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0042771">intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:2000779">regulation of double-strand break repair</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:1902262">apoptotic process involved in blood vessel morphogenesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0097193">intrinsic apoptotic signaling pathway</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0090398">cellular senescence</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0071456">cellular response to hypoxia</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0061484">hematopoietic stem cell homeostasis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0060729">intestinal epithelial structure maintenance</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0060216">definitive hemopoiesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051782">negative regulation of cell division</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051597">response to methylmercury</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0051289">protein homotetramerization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0048821">erythrocyte development</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0048730">epidermis morphogenesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045893">positive regulation of transcription, DNA-templated</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045787">positive regulation of cell cycle</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:1990841">promoter-specific chromatin binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0043565">sequence-specific DNA binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005515">protein binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003700">DNA-binding transcription factor activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0046872">metal ion binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0003677">DNA binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0044212">transcription regulatory region DNA binding</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000785">chromatin</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005634">nucleus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005737">cytoplasm</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.rcsb.org/structure/4CZ6'>4CZ6</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Truncated tetramerization domain of zebrafish p53 (crystal form II)<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><iframe src='https://string-db.org/api/image/network?identifiers=P79734' > P79734 </iframe><a href='https://string-db.org/api/image/network?identifiers=P79734' > P79734 </a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://prosite.expasy.org/PS00348'>PS00348</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='http://pfam.xfam.org/family/PF00870'>PF00870</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://pfam.xfam.org/family/PF00870/#tabview=tab1' > PF00870</a><br></div></td></tr><tr><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>PHYB</div></td><td><div style='height:150px; overflow-x:auto;'>arabidopsis thaliana
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/gene/?term=816394'>816394</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>phytochrome B</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_001335612.1'>NM_001335612.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/nuccore/NM_127435.4'>NM_127435.4</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ncbi.nlm.nih.gov/protein/NP_001325249.1'>NP_001325249.1</a><br>
+<a href='https://www.ncbi.nlm.nih.gov/protein/NP_179469.1'>NP_179469.1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href = 'https://www.genome.jp/dbget-bin/www_bget?ath:AT2G18790'>ath:AT2G18790</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.genome.jp/kegg-bin/show_pathway?ath04712'>ath04712</a><br>
+Circadian rhythm - plant<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/arabidopsis_thaliana/Gene/Summary?g=AT2G18790'>AT2G18790</a><br>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href=http://plants.ensembl.org/Arabidopsis_thaliana/Gene/Summary?db=core;g=AT2G18790;r=2:8139756-8144461>AT2G18790</a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://www.ensembl.org/arabidopsis_thaliana/Gene/Compara_Ortholog?db=core;g=AT2G18790'> ortholog </a><br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=AT2G18790.2'>AT2G18790.2</a><br>
+<a href='https://www.ensembl.org/Homo_sapiens/Transcript/Summary?db=core;t=AT2G18790.1'>AT2G18790.1</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>AT2G18790.2<br>AT2G18790.1<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.uniprot.org/uniprot/P14713'>P14713</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Phytochrome B (Protein LONG HYPOCOTYL 3) (Protein OUT OF PHASE 1)</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010244">response to low fluence blue light stimulus by blue low-fluence system</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0017012">protein-phytochromobilin linkage</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0045892">negative regulation of transcription, DNA-templated</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0009266">response to temperature stimulus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:2000028">regulation of photoperiodism, flowering</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0031347">regulation of defense response</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0015979">photosynthesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010617">circadian regulation of calcium ion oscillation</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010374">stomatal complex development</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010218">response to far red light</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010202">response to low fluence red light stimulus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010161">red light signaling pathway</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010148">transpiration</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010029">regulation of seed germination</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0009867">jasmonic acid mediated signaling pathway</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0009687">abscisic acid metabolic process</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0009649">entrainment of circadian clock</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0009640">photomorphogenesis</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0009638">phototropism</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0009630">gravitropism</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0009409">response to cold</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0006325">chromatin organization</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0000160">phosphorelay signal transduction system</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0010018">far-red light signaling pathway</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0023014">signal transduction by protein phosphorylation</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005515">protein binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0042803">protein homodimerization activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0043565">sequence-specific DNA binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:1990841">promoter-specific chromatin binding</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0031517">red light photoreceptor activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0031516">far-red light photoreceptor activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0009883">red or far-red light photoreceptor activity</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0042802">identical protein binding</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005634">nucleus</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0016604">nuclear body</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005829">cytosol</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005737">cytoplasm</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005654">nucleoplasm</a>
+<br><a href="https://www.ebi.ac.uk/QuickGO/term/GO:0016607">nuclear speck</a>
+<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://www.rcsb.org/structure/4OUR'>4OUR</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'>Crystal structure of Arabidopsis thaliana phytochrome B photosensory module<br></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><iframe src='https://string-db.org/api/image/network?identifiers=P14713' > P14713 </iframe><a href='https://string-db.org/api/image/network?identifiers=P14713' > P14713 </a></div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='https://prosite.expasy.org/PS50046'>PS50046</a><br>
+<a href='https://prosite.expasy.org/PS00245'>PS00245</a><br>
+<a href='https://prosite.expasy.org/PS50112'>PS50112</a><br>
+<a href='https://prosite.expasy.org/PS50109'>PS50109</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href='http://pfam.xfam.org/family/PF00360'>PF00360</a><br>
+</div></td><td><div style='height:150px; width = 150px; overflow-x:auto; overflow-y:auto'><a href= 'https://pfam.xfam.org/family/PF00360/#tabview=tab1' > PF00360</a><br></div></td></tr></tbody>
+</table>
+</body>
+</html>
+</html>
