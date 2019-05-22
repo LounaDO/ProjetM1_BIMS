@@ -1,9 +1,0 @@
-
-INPUT : 
-fichier txt tabulé avec nom de gène première colonne/tabulation/ nom d'espèce.
-
-Mettre le nom du fichier dans la commande fileinput.input du script main.py
-
-Lancer en ligne de commande : python3 main.py
-
-Ouvrir index.html pour le résutltat.
